@@ -1,0 +1,5 @@
+import pandas as pd
+import json
+from pandas.io.json import json_normalize
+sample_json_df = json.load((open('C:\Users\Bangdien\Documents\data scientist\jsonproject\data_wrangling_json\data\world_bank_projects_less.json')))
+print(sample_json_df)
